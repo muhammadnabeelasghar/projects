@@ -59,7 +59,7 @@ ul{
 .banner{
     width: 100%;
 }
-img{
+.frame{
     width: 100%;
     margin-top:50px ;
     height: 95vh;
@@ -139,7 +139,7 @@ img{
 }
 .tutor{
     /* margin-top: 200px; */
-    width: 95%;
+    width: 100%;
     height: auto;
     margin-left: 20px;
 }
