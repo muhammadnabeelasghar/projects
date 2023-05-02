@@ -1,0 +1,261 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+.im-menu{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    width: 120px;
+    height: 50px;
+    margin-left: 40px;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+}
+.menu li:hover{
+    background-color: rgb(223, 11, 11);
+}
+.menu li a:hover{
+    color: aqua;
+}
+.menu li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+.logo{
+    width: 78px;
+}
+.logo1:hover{
+    background-color: rgb(30, 223, 62)!important;
+}
+.menu ul li{
+    margin: 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.menu ul li:hover{
+    color: aqua;
+}
+.menu ul{
+    display: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+/* #############################banner############## */
+.banner{
+    width: 100%;
+}
+img{
+    width: 100%;
+    margin-top:50px ;
+    height: 95vh;
+}
+/* ##############why############# */
+.why{
+    width: 100%;
+    text-align: center;
+}
+.why h2{
+    margin: 0px auto;
+    /* display: inline-block; */
+    /* text-align: center; */
+    width: 200px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.sce{
+    width: 20%;
+    height: auto;
+    margin: 22px;
+    float: left;
+}
+.why::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.icon{
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    line-height: 120px;
+    font-size: 50px;
+    background-color:darkred;
+    color: white;
+    border-radius: 100px;
+    transition-duration: 0.3s;
+}
+.icon:hover{
+    font-size: 40px;
+}
+
+/* ###############sec 2################## */
+.sec-2{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    /* height: auto;
+    margin-top: 70px; */
+}
+.sec-2 h2{
+    margin: 0px auto;
+    /* display: inline-block; */
+    /* text-align: center; */
+    width: 300px;
+    font-size: 30px;
+    color: red;
+    border-bottom: 2px solid red;
+}
+.pic{
+    width: 30%;
+    height: auto;
+    margin: 12px;
+    float: left;
+}
+.sec-2::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.sec-2 img{
+    width: 100%;
+    height: 300px;
+}
+.tutor{
+    /* margin-top: 200px; */
+    width: 95%;
+    height: auto;
+    margin-left: 20px;
+}
+ .tutor h2{
+    margin: 0px auto;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    font-size: 30px;
+    color: red;
+    /* border-bottom: 2px solid red; */
+    padding-left: 400px;
+ }
+ .sub{
+    text-align: center;
+    margin: 300px;
+ }
+ .teacher{
+    margin-left: 15px;
+    width: 100%;
+    /* height: 100%; */
+    /* align-items: center; */
+ }
+.edit{
+    width: 19%;
+    margin-left: 10PX;
+    height: auto;
+    float: left;
+    
+}
+ .edit img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top:10%;
+ }
+ .edit h4{
+    margin-top: 0px;
+    margin-bottom: 0%;
+    margin-left: 20px;
+ }
+ /* .edit h6{
+    margin-top: 5px;
+    margin-left: 22px;
+    /* padding-bottom: 5px; * */
+.edit h6{
+        margin-top: 5px;
+}
+.cor{
+    width: 70%;
+    height: 30px;
+    color: #fdf9f9;
+    background-color: rgb(136, 18, 57);
+    font-size: 25px;
+    text-align: center;
+    margin: 0%;
+    margin-left: 5px;
+}
+.teacher::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* ################footer##################### */
+.footer{
+    /* margin-bottom: 10px; */
+    position: absolute;
+    margin: 20px 0px;
+    width: 100%;
+    height: auto;
+    background-color: black
+}
+.footer-div{
+    width: 19%;
+    height: auto;
+    margin: 10px 30px;
+    float: left;
+}
+.footer-div h1{
+    color: darkred;
+}
+.footer-div p{
+    color: white;
+}
+.footer-div button{
+    margin-top: 20px;
+    background-color: red;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+.footer-div ul li{
+    list-style: none;
+}
+.footer-div ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.social{
+    color: white;
+}
+.under{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+}
+/* .footer-1{
+    width: 50%;
+    float: left;
+    
+}
+.footer-1 p{
+    color: white;
+} */
