@@ -1,0 +1,616 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family:'Roboto', sans-serif; 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+header{
+    position: relative;
+    height: 95vh;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/header\ newe.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box{
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    word-spacing: 20px;
+    padding: 0.5rem;
+}
+.bg{
+    background-color: #263238;
+}
+h1.logo{
+    color: white;
+    font-weight: 400;
+    float: left;
+    font-size: 40px;
+}
+ul{
+    float: right;
+    margin-top: 1rem;
+    font-weight: 300;
+    
+}
+.list{
+    text-decoration-line: none;
+    display: inline-block;
+    text-transform: uppercase;
+    
+}
+.btn{
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 500;
+    margin: 0.5em 0;
+}
+.btn:hover{
+    background-color: #f5e8e8;
+}
+.btn-pr{
+    background-color: white;
+    font-size: 1rem;
+    border-radius: 100px;
+}
+.btn-s{
+    border: solid red 1px;
+    border-radius: 1.5em;
+}
+.btn-s:hover{
+    background-color: #f5e8e8;
+}
+a.tag{
+    text-decoration: none;
+    color: white;
+}
+a.tag:hover{
+    border-bottom:solid white 1px ;
+}
+nav::after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+p,li{
+    font-size: 16px;
+    margin-bottom: 0.5em;
+    letter-spacing: 1px;
+}
+h1.lg-hi{
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+p.lg-p{
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    word-spacing: 2px;
+}
+div.lg-heading{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2));
+}
+/* ##################### SHOWCASE ############################## */
+
+.showcase{
+    background: #ddd;
+    padding: 10rem 0;
+}
+.row{
+    height: 23.125rem;
+    background-color: white;
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.418);
+}
+.row1{
+    margin-bottom: 100px;
+}
+.row1 .img, .row2 .text{
+    float: left;
+    width: 50%;
+}
+.row2 .img, .row1 .text{
+    float: right;
+    width: 50%;
+}
+.row .img{
+    height: 100%;
+}
+.row .text{
+    padding: 3rem;
+}
+.row img {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.s-hd{
+    font-size: 200%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.des{
+    font-size: 100%;
+    font-weight: 300;
+    height: 100%;
+    line-height: 20px;
+    
+}
+.row::after{
+    content: "" ;
+    display: block;
+    clear: both;
+}
+/* #############################feature section############# */
+.last{
+    /* padding: 10rem 0; */
+    /* border: 2px solid red; */
+    height:auto;
+}
+.one{
+    width: 33.33333%;
+    float: left;
+    border: 2px solid black;
+    padding: 2rem;
+    text-align: center;
+    margin: 40px 0;
+    background-color: #263238;
+    color: white;
+    box-shadow: 5px 5px 20px 5px black;
+
+}
+.two{
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+.three-3{
+    background-color: #263238;
+}
+.last::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.footer{
+    background-color: #263238;
+    color:rgb(245, 233, 233);
+    padding: 1rem;
+    text-align: center;
+}
+.font{
+    margin: 1rem;
+}
+.gr{
+    color: grey;
+}
+
+
+
+/* #######################################about page####################### */
+
+.about{
+    padding: 3rem 0;
+    line-height: 1.5rem;
+}
+.about-heading{
+    border-bottom: 4px solid red;
+}
+
+/* ##############################wrap#################################### */
+
+.wrap{
+    padding-right: 15%;
+    margin-top: 2rem;
+}
+.right{
+    float: right;
+    width: 50%;
+}
+.left{
+    float: left;
+    width: 50%;
+}
+.wrap::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.about .wrap li::before{
+    content: "\2713";
+    color: red;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+.wrap ul li{
+    list-style: none;
+}
+
+/* #############################################count################## */
+.count{
+    margin-top: 2rem;
+}
+.items{
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+.count::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.count span{
+    font-size: 2rem;
+    font-weight: 700;
+    color: red;
+}
+.count p{
+    font-weight: 600;
+    color: #263238;
+    font-size: 1.3rem;
+}
+
+
+/* ####################################BAN######################### */
+.ban{
+    background:linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    color: #f4f4f4;
+    padding: 1rem;
+    box-shadow: 5px 5px 10px #00000073;
+    margin-top: 1rem;
+}
+.ban-le{
+    width: 60%;
+    float: left;
+}
+.ban-ri{
+    width: 40%;
+    text-align: right;
+    float: right;
+}
+.ban::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cta{
+    font-weight: 300;
+    font-size: 2rem;
+    margin-top: 1.2rem;
+}
+.button{
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    border: 2px solid white;
+    padding: 0.6em 1.5em;
+    letter-spacing: 0.5rem;
+    color: #f4f4f4;
+    margin-left: 2rem;
+    /* margin-top: 0.5rem; */
+}
+
+
+/* #################################################3CONTACT############################ */
+
+
+
+.cont-form{
+    padding: 5rem 0;
+    background: #f7f7f7;
+}
+
+.for::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.for .address{
+    height: 760px;
+    background: #fff;
+    width: 49%;
+    float: left;
+    padding: 1rem;
+}
+.for .address i{
+    display: inline-block;
+    margin-right: 1rem;
+}
+.for .address h2{
+    display: inline-block;
+    text-transform: uppercase;
+}
+.for .address img{
+    width: 90%;
+    max-width: 90%;
+    height: 20rem;
+    min-height: 20rem;
+    object-fit: cover;
+    background-position: left;
+}
+/* ###############################form styling#################################### */
+
+.for .data{
+    height: 760px;
+    font-size: 1.6rem;
+    background: #fff;
+    padding: 1rem;
+    width: 49%;
+    float: right;
+}
+.group h2 {
+    color: gray;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.for .address .group{
+    margin-bottom: 2rem;
+}
+.data h2{
+    color: rgb(3, 3, 3);
+    font-size: 2rem;
+    font-weight: 700;
+    border-bottom: 5px solid red;
+}
+.for label{
+    display: block;
+}
+.for .data input{
+    padding: 0.5rem;
+    width: 100%;
+}
+.for .data .fr-gr{
+    margin-bottom: 1.2rem;
+}
+.for label::after{
+    content: "*";
+    color: red;
+}
+.for .data .fr-gr textarea{
+    width: 100%;
+    height: 200px;
+    padding: 1rem;
+}
+.form-btn{
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 3em;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    background: #e63946;
+    color: #fff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+/* ############################################## media queries ################################### */
+
+@media (max-width: 500px){
+    html{
+        font-size: 50%;
+        
+    }
+    i{
+        font-size: 3rem !important;
+    }
+    nav .logo, nav ul{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    p{
+        font-size: 1.8rem !important;
+    }
+    .one h1{
+        font-size: 30px;
+    }
+    /* h1.lg-hi{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    p, li{
+        font-size: 30px;
+    } */
+    .btn-pr{
+        font-size: 1.7rem;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .img, .row .text{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    /* .showcase .s-hd{
+        font-size: 25px;
+    }
+    .showcase .des{
+        font-size: 17px;
+    } */
+    .last .one{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .ban-le, .ban-ri{
+        float: none;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+
+    }
+    .about-heading{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .gr{
+        line-height: 2rem;
+    }
+    .left, .right{
+        float: none;
+        width: 100%;
+        line-height: 2rem;
+        text-align: center;
+    }
+    .for .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .for .data{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .group p {
+        font-size: 1.5rem;
+    }
+    .group h2{
+        font-size: 1.8rem;
+    }
+    label{
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 501px) and (max-width: 768px){
+    html{
+        font-size: 50%;
+    }
+    P{
+        font-size: 2rem !important;
+    }
+    i{
+        font-size: 3rem !important;
+    }
+    nav .logo, nav ul{
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .one h1{
+        font-size: 30px;
+    }
+    /* h1.lg-hi{
+        font-size: 20px;
+        font-weight: 900;
+    }
+    p, li{
+        font-size: 30px;
+    } */
+    .btn-pr{
+        font-size: 1.7rem;
+    }
+    .row{
+        height: auto;
+        width: 100%;
+    }
+    .row .img, .row .text{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    /* .showcase .s-hd{
+        font-size: 25px;
+    }
+    .showcase .des{
+        font-size: 17px;
+    } */
+    .last .one{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .ban-le, .ban-ri{
+        float: none;
+        width: 100%;
+        text-align: center;
+        line-height: 2rem;
+
+    }
+    .about-heading{
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .gr{
+        line-height: 2rem;
+    }
+    .left, .right{
+        line-height: 2rem;
+        text-align: center;
+    }
+    .for .address{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+    .for .data{
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .group p {
+        font-size: 2.5rem !important;
+    }
+    .group h2{
+        font-size: 3rem;
+    }
+    label{
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 769px) and (max-width: 1200px){
+    html{
+        font-size: 56.26%;
+    }
+.row{
+
+    height: 300px;
+}
+p{
+    font-size: 1.8rem !important;
+}
+    .row .text p{
+        font-size: 1.7rem;
+    }
+    .row .text h1{
+        font-size: 3rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 0;
+    }
+}
+@media (orientation: landscape) and (max-width){
+    header{
+        height: 95vmax;
+    }
+}
